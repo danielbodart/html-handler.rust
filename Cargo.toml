@@ -1,0 +1,16 @@
+[package]
+name = "html_handler"
+version = "0.1.0"
+authors = ["Daniel Worthington-Bodart <dan@bodar.com>"]
+
+[lib]
+name = "html_handler"
+path = "src/lib.rs"
+
+[[bin]]
+name = "html_handler"
+path = "src/main.rs"
+
+[dependencies]
+scraper = "0.4.0"
+ego-tree = "0.1.0"
