@@ -12,5 +12,5 @@ name = "html_handler"
 path = "src/main.rs"
 
 [dependencies]
-scraper = "0.4.0"
-ego-tree = "0.1.0"
+kuchiki = "0.4.0"
+html5ever = "0.9.0"
